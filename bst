@@ -53,6 +53,6 @@ class BST {
 const arr = [12,3,24,5,43,2,23,11,563,21,92,0]
 let bstree = new BST();
 arr.forEach(item => {
-    tree.insert(item)
+    bstree.insert(item)
 })
 bstree.inOrderTraversal(bstree.root)
